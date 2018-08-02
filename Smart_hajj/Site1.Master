@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Smart_hajj.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+</head>
+<body>
+    <form id="form1" runat="server">
+         <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="home.aspx">
+             <img src="img/logo1.png" /></a><asp:Label ID="Label1" runat="server" Text="Smart Hajj" ForeColor="White"></asp:Label>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+           
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.aspx">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ManageP.aspx">Manage People traffic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Find People</a>
+            </li>
+               <li class="nav-item">
+              <a class="nav-link" href="contact.html">Statstics</a>
+            </li>
+               <li class="nav-item">
+              <a class="nav-link" href="contact.html">Midecal Information</a>
+            </li>
+           
+            
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+         <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+   
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    </form>
+</body>
+</html>
