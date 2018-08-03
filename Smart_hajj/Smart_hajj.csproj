@@ -47,6 +47,9 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\WebSites\WebSite2\lib\MySql.Data.DLL</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -65,9 +68,24 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HomeAR.aspx" />
+    <Content Include="img\40325551-realistic-muslim-man-character-wearing-ihram-cloths-for-performing-hajj-or-umrah-pilgrimage-in-kaaba.jpg" />
+    <Content Include="img\Arabic_Text.png" />
+    <Content Include="img\english-to-arabic.png" />
+    <Content Include="img\Find.jpg" />
+    <Content Include="img\gamarat.gif" />
+    <Content Include="img\hajj.png" />
+    <Content Include="img\ManageHajj.jpg" />
+    <Content Include="img\ManageHajj1.jpg" />
+    <Content Include="img\ManageHajj2.jpg" />
+    <Content Include="img\ManageHajj3.jpg" />
+    <Content Include="img\PICMANAG.png" />
+    <Content Include="img\Statics.png" />
+    <Content Include="img\tawaaf.png" />
     <Content Include="packages.config" />
     <Content Include="Page_Control.aspx" />
     <Content Include="Site1.Master" />
+    <Content Include="Statstics.aspx" />
     <Content Include="vendor\bootstrap\css\bootstrap.css.map" />
     <Content Include="vendor\bootstrap\css\bootstrap.min.css.map" />
     <Content Include="vendor\bootstrap\js\bootstrap.bundle.js.map" />
@@ -76,6 +94,7 @@
     <Content Include="vendor\bootstrap\js\bootstrap.min.js.map" />
     <Content Include="vendor\jquery\jquery.min.map" />
     <Content Include="vendor\jquery\jquery.slim.min.map" />
+    <Content Include="Site2.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -117,6 +136,13 @@
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="HomeAR.aspx.cs">
+      <DependentUpon>HomeAR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeAR.aspx.designer.cs">
+      <DependentUpon>HomeAR.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Jamarat.aspx.cs">
       <DependentUpon>Jamarat.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -145,6 +171,20 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Statstics.aspx.cs">
+      <DependentUpon>Statstics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statstics.aspx.designer.cs">
+      <DependentUpon>Statstics.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Smart_hajj.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="Smart_hajj.Site2" %>
 
 <!DOCTYPE html>
 
@@ -25,27 +25,26 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top" style="height:100px">
       <div class="container">
         <a class="navbar-brand" href="home.aspx">
-             <img src="img/hajj.png" width="100px" /></a><asp:Label ID="Label1" runat="server" Text="Smart Hajj" ForeColor="White"></asp:Label> <a href="homeAR.aspx"><img src="img/english-to-arabic.png" style="width:40px" /></a>
+             <img src="img/hajj.png" width="100px" /></a><asp:Label ID="Label1" runat="server" Text="حج ذكي" ForeColor="White"></asp:Label> <a href="home.aspx"><img src="img/english-to-arabic.png" style="width:40px" /></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            
+           
         </button>
-
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="Home.aspx">Home</a>
+              <a class="nav-link" href="Home.aspx">الصفحة الرئيسية</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ManageP.aspx">Hajj pilgrims Crowding</a>
+              <a class="nav-link" href="ManageP.aspx">إدارة الحشود</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Find People</a>
+              <a class="nav-link" href="contact.html">البحث عن حاج</a>
             </li>
                <li class="nav-item">
-              <a class="nav-link" href="Statstics.aspx">Statstics</a>
+              <a class="nav-link" href="Statstics.aspx">احصائيات الحجاج</a>
             </li>
                <li class="nav-item">
-              <a class="nav-link" href="contact.html">Midecal Information</a>
+              <a class="nav-link" href="contact.html">معلومات صحية</a>
             </li>
            
             
@@ -64,7 +63,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 text-center text-white">حقوق الطبع محفوظة @2018 </p>
       </div>
       <!-- /.container -->
     </footer>
@@ -72,3 +71,4 @@
     </form>
 </body>
 </html>
+
